@@ -1,0 +1,65 @@
+.wrapper {
+    padding: 40px;
+    height: 100dvh;
+    background-color: antiquewhite;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title {
+    text-align: center;
+    margin-bottom: 28px;
+    color: crimson;
+}
+form {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4px;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+fieldset {
+    width: fit-content;
+    padding: 8px;
+    border: none;
+}
+
+label{
+    display: block;
+    margin-bottom: 8px;
+}
+
+input[type="text"],input[type="date"],input[type="time"],input[type="email"], select {
+    font-size: 16px;
+    padding: 8px;
+    border-radius: 4px;
+    border: 1px solid blue;
+    width: 250px;
+}
+
+.btn {
+    padding: 8px;
+    background-color: gray;
+    color: whitesmoke;
+    border: 1px solid transparent;
+    font-weight: bold;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.btn:hover {
+    background-color: white;
+    color: gray;
+    border: 1px solid gray;
+}
+
+.require {
+    border-color: crimson !important;
+}
