@@ -1,6 +1,6 @@
 .wrapper {
     padding: 40px;
-    height: 100dvh;
+    min-height: 100dvh;
     background-color: antiquewhite;
     display: flex;
     flex-direction: column;
@@ -52,6 +52,7 @@ input[type="text"],input[type="date"],input[type="time"],input[type="email"], se
     border-radius: 4px;
     cursor: pointer;
     transition: 0.5s;
+    margin-top: 8px;
 }
 
 .btn:hover {
@@ -62,4 +63,27 @@ input[type="text"],input[type="date"],input[type="time"],input[type="email"], se
 
 .require {
     border-color: crimson !important;
+}
+
+.error {
+    color: crimson;
+    width: 250px;
+    margin-top: 8px;
+}
+
+.details {
+    background-color: white;
+    padding: 16px 24px;
+    border-radius: 8px;
+    margin-top: 24px;
+    box-shadow: 0px 0px 40px rgba(0,0,0,0.1);
+}
+
+.sub-title {
+    margin-bottom: 16px;
+}
+
+.details p {
+    margin: 8px 0px;
+    font-size: 18px;
 }
